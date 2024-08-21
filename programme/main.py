@@ -528,7 +528,7 @@ class Fen(Tk):
             GPSInfos(self, self.meta[i])
     
     def exporter(self):
-        file = asksaveasfilename(filetypes=(("fichiers texte", "*.txt"), ("tous les fichiers", "*.*")), title="Sélectionnez le fichier de destination", initialdir="e:/", initialfile="metadonnées", defaultextension="txt")
+        file = asksaveasfilename(filetypes=(("fichiers texte", "*.txt"), ("tous les fichiers", "*.*")), title="Sélectionnez le fichier de destination", initialfile="metadonnées", defaultextension="txt")
         if not file: return
         ...
 
